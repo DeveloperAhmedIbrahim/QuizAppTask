@@ -1,0 +1,62 @@
+STRICT
+1. Session can only be used for storing user name or id
+2. Should follow the MVC pattern
+3. SQL Aggregate functions need to be used in required place4.
+All server communication should be in ajax and the content type should be in json
+(Exemption for user page and initial question loading page)
+5. Database should be in normalized form
+6. Code should be elegant and readable
+7. PHP version Min 7.3
+8. Unwanted usage of variables and functions need to be avoided
+9. SQL functions should be used if it is faster than using a php function
+
+OPTIONAL ( SKIP)
+1. Server side/Client side validation
+2. User can view his previous results
+3. Using of new features of PHP 7.x
+4. Making the code hack proof using the framework inbuilt libraries and classes
+5. If a user closes the browser, after he reopen the browser again, he can answer the remaining questions
+
+
+'1', 'Question 01', '1', 'PHP'
+'2', 'Question 02', '3', 'PHP'
+'3', 'Question 03', '2', 'PHP'
+'4', 'Question 04', '4', 'PHP'
+'5', 'Question 05', '3', 'PHP'
+'6', 'Question 06', '4', 'AJAX'
+'7', 'Question 07', '2', 'AJAX'
+'8', 'Question 08', '1', 'AJAX'
+'9', 'Question 09', '3', 'AJAX'
+'10', 'Question 10', '4', 'AJAX'
+'11', 'Question 11', '4', 'JQUERY'
+'12', 'Question 12', '2', 'JQUERY'
+'13', 'Question 13', '3', 'JQUERY'
+'14', 'Question 14', '2', 'JQUERY'
+'15', 'Question 15', '1', 'JQUERY'
+'16', 'Question 16', '3', 'HTML'
+'17', 'Question 17', '1', 'HTML'
+'18', 'Question 18', '2', 'HTML'
+'19', 'Question 19', '4', 'HTML'
+'20', 'Question 20', '3', 'HTML'
+
+
+'1', 'Option 01', 'Option 02', 'Option 03', 'Option 04', '1'
+'2', 'Option 01', 'Option 02', 'Option 03', 'Option 04', '2'
+'3', 'Option 01', 'Option 02', 'Option 03', 'Option 04', '3'
+'4', 'Option 01', 'Option 02', 'Option 03', 'Option 04', '4'
+'5', 'Option 01', 'Option 02', 'Option 03', 'Option 04', '5'
+'6', 'Option 01', 'Option 02', 'Option 03', 'Option 04', '6'
+'7', 'Option 01', 'Option 02', 'Option 03', 'Option 04', '7'
+'8', 'Option 01', 'Option 02', 'Option 03', 'Option 04', '8'
+'9', 'Option 01', 'Option 02', 'Option 03', 'Option 04', '9'
+'10', 'Option 01', 'Option 02', 'Option 03', 'Option 04', '10'
+'11', 'Option 01', 'Option 02', 'Option 03', 'Option 04', '11'
+'12', 'Option 01', 'Option 02', 'Option 03', 'Option 04', '12'
+'13', 'Option 01', 'Option 02', 'Option 03', 'Option 04', '13'
+'14', 'Option 01', 'Option 02', 'Option 03', 'Option 04', '14'
+'15', 'Option 01', 'Option 02', 'Option 03', 'Option 04', '15'
+'16', 'Option 01', 'Option 02', 'Option 03', 'Option 04', '16'
+'17', 'Option 01', 'Option 02', 'Option 03', 'Option 04', '17'
+'18', 'Option 01', 'Option 02', 'Option 03', 'Option 04', '18'
+'19', 'Option 01', 'Option 02', 'Option 03', 'Option 04', '19'
+'20', 'Option 01', 'Option 02', 'Option 03', 'Option 04', '20'
